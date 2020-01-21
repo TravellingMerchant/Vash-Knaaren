@@ -1,0 +1,8 @@
+{
+  "name" : "fullblack",
+  "category" : "vashknaarenpet",
+  "type" : "body",
+  "frames" : {
+    "body" : "fullblack.png"
+  }
+}

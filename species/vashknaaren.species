@@ -1,0 +1,134 @@
+{
+  "kind" : "vashknaaren",
+	"charCreationTooltip" : {
+	"title" : "Vash'Knaaren",
+	"subTitle" : "O2",
+	"description" : "Vash'Knaaren are composed of a single crystal protected by organic metal plates and stony flesh."
+  },
+  "nameGen" : [ "/species/vashknaarenmalenamegen.config:names", "/species/vashknaarenfemalenamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/vashknaarenhurt_male1.ogg", "/sfx/humanoid/vashknaarenhurt_female1.ogg" ],
+  "charGenTextLabels" : [ "Skin colour", "Skull Plate", "Chestwear", "Legwear", "Neck Detail", "Plate Colour", "Shirt colour", "Legwear colour", "Vash'Knaaren", "Personality" ],
+  "skull" : "/humanoid/vashknaaren/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=ffea63FF?replace=31a6ffFF=f5bc00FF",
+  "defaultBlueprints" : {
+    "tier1" : [
+	
+  // Empty Hands
+      { "item" : "flagvashknaaren" },
+	    
+// Anvil
+      { "item" : "vashknaarentier1head" },
+      { "item" : "vashknaarentier1chest" },
+      { "item" : "vashknaarentier1pants" },
+      { "item" : "vashknaarentier2head" },
+      { "item" : "vashknaarentier2chest" },
+      { "item" : "vashknaarentier2pants" },
+      { "item" : "vashknaarensword" },
+      { "item" : "ironshortsword" },
+      { "item" : "ironbroadsword" },
+      { "item" : "tungstenaxe" },
+      { "item" : "tungstenhammer" },
+// Anvil2
+      { "item" : "vashknaarentier3head" },
+      { "item" : "vashknaarentier3chest" },
+      { "item" : "vashknaarentier3pants" },
+      { "item" : "vashknaarentier4head" },
+      { "item" : "vashknaarentier4chest" },
+      { "item" : "vashknaarentier4pants" },
+      { "item" : "titaniumdagger" },
+      { "item" : "titaniumspear" },
+      { "item" : "durasteelbroadsword" },
+      { "item" : "durasteelshortsword" },
+// Anvil3
+      { "item" : "vashknaarentier5ahead" },
+      { "item" : "vashknaarentier5achest" },
+      { "item" : "vashknaarentier5apants" },
+      { "item" : "vashknaarentier6ahead" },
+      { "item" : "vashknaarentier6achest" },
+      { "item" : "vashknaarentier6apants" },
+      { "item" : "vashknaarentier5mhead" },
+      { "item" : "vashknaarentier5mchest" },
+      { "item" : "vashknaarentier5mpants" },
+      { "item" : "vashknaarentier6mhead" },
+      { "item" : "vashknaarentier6mchest" },
+      { "item" : "vashknaarentier6mpants" },
+      { "item" : "vashknaarentier5shead" },
+      { "item" : "vashknaarentier5schest" },
+      { "item" : "vashknaarentier5spants" },
+      { "item" : "vashknaarentier6shead" },
+      { "item" : "vashknaarentier6schest" },
+      { "item" : "vashknaarentier6spants" },
+      { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+      { "item" : "feroziumwand" },
+      { "item" : "feroziumstaff" },
+      { "item" : "violiumshortsword" },
+      { "item" : "violiumbroadsword" },
+// Furniture Table 2
+      { "item" : "vashknaarenstoragelocker" },
+      { "item" : "vashknaarenshipdoor" },
+      { "item" : "vashknaarenshiphatch" },
+// Spinning Wheel
+      { "item" : "vashknaarenoutfit1chest" },
+      { "item" : "vashknaarenoutfit1legs" },
+      { "item" : "vashknaarenoutfit2chest" },
+      { "item" : "vashknaarenoutfit2legs" },
+      { "item" : "vashknaarenoutfit3chest" },
+      { "item" : "vashknaarenoutfit3legs" },
+      { "item" : "vashknaarenoutfit4chest" },
+      { "item" : "vashknaarenoutfit4legs" },
+// Special
+      { "item" : "vashknaarenmerchant" }  
+	  
+	  ]
+  },
+  "altOptionAsFacialMask" : true,
+  "headOptionAsHairColor" : true,
+  "bodyColorAsFacialMaskSubColor" : true,
+  "hairColorAsBodySubColor" : true,
+  "genders" : [
+    {
+       "name" : "male",
+      "image" : "/interface/title/vashknaarenmaleico.png",
+      "characterImage" : "/interface/title/vashknaarenmale.png",
+	  "hairGroup" : "skullplates",
+      "hair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" ],
+	  "shirt" : [ "vashknaarenoutfit1chest", "vashknaarenoutfit2chest", "vashknaarenoutfit3chest", "vashknaarenoutfit4chest" ],
+      "pants" : [ "vashknaarenoutfit1legs", "vashknaarenoutfit2legs", "vashknaarenoutfit3legs", "vashknaarenoutfit4legs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "backaccessory",
+      "facialMask" : [ "male1", "male2", "male3", "male4", "male5", "male6", "male7" ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/vashknaarenfemico.png",
+      "characterImage" : "/interface/title/vashknaarenfemale.png",
+	  "hairGroup" : "skullplates",
+      "hair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" ],
+      "shirt" : [ "vashknaarenoutfit1chest", "vashknaarenoutfit2chest", "vashknaarenoutfit3chest", "vashknaarenoutfit4chest" ],
+      "pants" : [ "vashknaarenoutfit1legs", "vashknaarenoutfit2legs", "vashknaarenoutfit3legs", "vashknaarenoutfit4legs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "backaccessory",
+      "facialMask" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7" ]
+    }
+  ],
+  "bodyColor" : [
+    { "ffe2c5" : "545060", "ffc181" : "403b4e", "d39c6c" : "272333", "c7815b" : "15131a" },
+    { "ffe2c5" : "87735d", "ffc181" : "5c4d3b", "d39c6c" : "403528", "c7815b" : "2f261b" },
+    { "ffe2c5" : "e1b98d", "ffc181" : "c88959", "d39c6c" : "9e6a4d", "c7815b" : "784930" },
+    { "ffe2c5" : "c9b181", "ffc181" : "ac8348", "d39c6c" : "87633f", "c7815b" : "694c31" },
+    { "ffe2c5" : "e8cebc", "ffc181" : "cfa97d", "d39c6c" : "ae774b", "c7815b" : "804e34" },
+    { "ffe2c5" : "f4e0ba", "ffc181" : "e9b768", "d39c6c" : "c18f54", "c7815b" : "a2683d" },
+    { "ffe2c5" : "ffe9d3", "ffc181" : "ffc181", "d39c6c" : "d39c6c", "c7815b" : "b97551" },
+    { "ffe2c5" : "fbe1d4", "ffc181" : "f6baa2", "d39c6c" : "cc9582", "c7815b" : "ac7261" },
+    { "ffe2c5" : "fff7ec", "ffc181" : "f9d3a9", "d39c6c" : "d3a57c", "c7815b" : "b37c5d" },
+    { "ffe2c5" : "fff6f6", "ffc181" : "f7d5d3", "d39c6c" : "d1aaa1", "c7815b" : "a27f70" }
+  ],
+  "undyColor" : [ "" ],
+  "hairColor" : [
+    { "87735d" : "87735d", "5c4d3b" : "5c4d3b", "403528" : "403528", "2f261b" : "2f261b" }, //BONE
+    { "87735d" : "545060", "5c4d3b" : "403b4e", "403528" : "272333", "2f261b" : "15131a" } //FLESH
+  ]
+}

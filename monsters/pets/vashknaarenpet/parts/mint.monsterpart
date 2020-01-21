@@ -1,0 +1,8 @@
+{
+  "name" : "mint",
+  "category" : "vashknaarenpet",
+  "type" : "body",
+  "frames" : {
+    "body" : "mint.png"
+  }
+}

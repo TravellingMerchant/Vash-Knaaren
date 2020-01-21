@@ -1,0 +1,10 @@
+[{
+		"op" : "add",
+		"path" : "/species/vashknaaren",
+		"value" : {
+			"aiFrames" : "vashknaarenAI.png",
+			"portraitFrames" : "portraits/vashknaarenportrait.png",
+			"staticFrames" : "staticvashknaaren.png"	
+		}
+	}
+]

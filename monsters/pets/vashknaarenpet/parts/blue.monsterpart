@@ -1,0 +1,8 @@
+{
+  "name" : "blue",
+  "category" : "vashknaarenpet",
+  "type" : "body",
+  "frames" : {
+    "body" : "blue.png"
+  }
+}
