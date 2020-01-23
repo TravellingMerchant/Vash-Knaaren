@@ -98,7 +98,7 @@
       "facialHairGroup" : "",
       "facialHair" : [ ],
       "facialMaskGroup" : "backaccessory",
-      "facialMask" : [ "male1", "male2", "male3", "male4", "male5", "male6", "male7" ]
+      "facialMask" : [ "male1", "male2", "male3", "male4", "male5", "male6", "male7", "male8", "male9" ]
     },
     {
       "name" : "female",
@@ -111,24 +111,23 @@
       "facialHairGroup" : "",
       "facialHair" : [ ],
       "facialMaskGroup" : "backaccessory",
-      "facialMask" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7" ]
+      "facialMask" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7", "fem8", "fem9" ]
     }
   ],
   "bodyColor" : [
-    { "ffe2c5" : "545060", "ffc181" : "403b4e", "d39c6c" : "272333", "c7815b" : "15131a" },
-    { "ffe2c5" : "87735d", "ffc181" : "5c4d3b", "d39c6c" : "403528", "c7815b" : "2f261b" },
-    { "ffe2c5" : "605058", "ffc181" : "4e3b45", "d39c6c" : "33232b", "c7815b" : "1a1317" },
-    { "ffe2c5" : "506058", "ffc181" : "3b4e45", "d39c6c" : "23332b", "c7815b" : "131a17" },
-    { "ffe2c5" : "e8cebc", "ffc181" : "cfa97d", "d39c6c" : "ae774b", "c7815b" : "804e34" },
-    { "ffe2c5" : "f4e0ba", "ffc181" : "e9b768", "d39c6c" : "c18f54", "c7815b" : "a2683d" },
-    { "ffe2c5" : "ffe9d3", "ffc181" : "ffc181", "d39c6c" : "d39c6c", "c7815b" : "b97551" },
-    { "ffe2c5" : "fbe1d4", "ffc181" : "f6baa2", "d39c6c" : "cc9582", "c7815b" : "ac7261" },
-    { "ffe2c5" : "fff7ec", "ffc181" : "f9d3a9", "d39c6c" : "d3a57c", "c7815b" : "b37c5d" },
-    { "ffe2c5" : "fff6f6", "ffc181" : "f7d5d3", "d39c6c" : "d1aaa1", "c7815b" : "a27f70" }
+    { "ffe2c5" : "545060", "ffc181" : "403b4e", "d39c6c" : "272333", "c7815b" : "15131a" }, //1
+    { "ffe2c5" : "87735d", "ffc181" : "5c4d3b", "d39c6c" : "403528", "c7815b" : "2f261b" }, //2
+    { "ffe2c5" : "605058", "ffc181" : "4e3b45", "d39c6c" : "33232b", "c7815b" : "1a1317" }, //3
+    { "ffe2c5" : "506058", "ffc181" : "3b4e45", "d39c6c" : "23332b", "c7815b" : "131a17" }, //4
+    { "ffe2c5" : "625252", "ffc181" : "503c3c", "d39c6c" : "342424", "c7815b" : "1b1313" }, //5
+    { "ffe2c5" : "a16c6c", "ffc181" : "805252", "d39c6c" : "623737", "c7815b" : "402222" }, //6
+    { "ffe2c5" : "595555", "ffc181" : "443f3f", "d39c6c" : "2b2727", "c7815b" : "151313" } //7
+
   ],
   "undyColor" : [ "" ],
   "hairColor" : [
     { "87735d" : "87735d", "5c4d3b" : "5c4d3b", "403528" : "403528", "2f261b" : "2f261b" }, //BONE
+    { "87735d" : "506058", "5c4d3b" : "3b4e45", "403528" : "23332b", "2f261b" : "131a17" }, //GREEN
     { "87735d" : "545060", "5c4d3b" : "403b4e", "403528" : "272333", "2f261b" : "15131a" } //FLESH
   ]
 }
