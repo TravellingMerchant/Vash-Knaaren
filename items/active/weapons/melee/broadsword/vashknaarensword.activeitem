@@ -10,13 +10,15 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword"],
   "inventoryIcon" : "vashknaarensword.png",
-  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animation" : "/items/active/weapons/melee/broadsword/vk-combobroadsword.animation",
   "animationParts" : {
     "handle" : "",
     "blade" : "vashknaarensword.png"
   },
   "animationCustom" : { },
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua", "/items/active/weapons/neb-colourmatching.lua" ],
+  
   "elementalType" : "physical",
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {

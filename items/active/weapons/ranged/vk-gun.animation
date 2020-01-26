@@ -1,6 +1,8 @@
 {
   "globalTagDefaults" : {
-    "paletteSwaps" : ""
+    "paletteSwaps" : "",
+    "skinColour" : "",
+    "eyeColour" : ""
   },
 
   "animatedParts" : {
@@ -35,7 +37,7 @@
       "butt" : {
         "properties" : {
           "centered" : true,
-          "image" : "<partImage><paletteSwaps>",
+          "image" : "<partImage><paletteSwaps><skinColour><eyeColour>",
           "offset" : [0, 0], // x offset is set dynamically
           "transformationGroups" : ["weapon"]
         }
@@ -43,7 +45,7 @@
       "middle" : {
         "properties" : {
           "centered" : true,
-          "image" : "<partImage><paletteSwaps>:idle",
+          "image" : "<partImage><paletteSwaps>:idle<skinColour><eyeColour>",
           "offset" : [0, 0], // x offset is set dynamically
           "transformationGroups" : ["weapon"]
         },
@@ -51,7 +53,7 @@
 		  "weaponFire" : {
 			"fire" : {
 			  "properties" : {
-				"image" : "<partImage>:fire.<frame>"
+				"image" : "<partImage>:fire.<frame><skinColour><eyeColour>"
 			  }
 			}
 		  }
@@ -60,7 +62,7 @@
       "barrel" : {
         "properties" : {
           "centered" : true,
-          "image" : "<partImage><paletteSwaps>",
+          "image" : "<partImage><paletteSwaps><skinColour><eyeColour>",
           "offset" : [0, 0], // x offset is set dynamically
           "transformationGroups" : ["weapon"]
         }
@@ -78,7 +80,7 @@
           "firing" : {
             "fire" : {
               "properties" : {
-                "image" : "<partImage>:<variant>.<frame>"
+                "image" : "<partImage>:<variant>.<frame><skinColour><eyeColour>"
               }
             }
           }

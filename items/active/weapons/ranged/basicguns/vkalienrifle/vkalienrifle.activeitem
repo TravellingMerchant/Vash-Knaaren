@@ -1,7 +1,7 @@
 {
   "itemName" : "vkalienrifle",
   "price" : 2300,
-  "inventoryIcon" : "sgbreakerrifle.png:idle",
+  "inventoryIcon" : "vkalienrifle.png:idle",
   "maxStack" : 1,
   "rarity" : "common",
   "description" : "A Depleated Vash'Knaaren made into a rifle that fires sharp crystal thorns in a burst.",
@@ -13,10 +13,10 @@
   "itemTags" : ["weapon","ranged","assaultrifle","upgradeableWeapon"],
   "twoHanded" : false,
   
-  "animation" : "sgbreakerrifle.animation",
+  "animation" : "/items/active/weapons/ranged/vk-gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "sgbreakerrifle.png",
+    "middle" : "vkalienrifle.png",
     "barrel" : "",
     "muzzleFlash" : "/animations/muzzleflash/tempmuzzle/tempmuzzle.png"
   },
@@ -29,7 +29,7 @@
   "baseOffset" : [2.25, 0.1],
   "muzzleOffset" : [-0.25, 0.125],
 
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "scripts" : [ "/items/active/weapons/ranged/gun.lua", "/items/active/weapons/neb-colourmatching.lua" ],
   "scriptDelta" : 2,
 
   "elementalType" : "physical",
@@ -87,9 +87,9 @@
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua",
   "upgradeParameters" : {
-    "inventoryIcon" : "sgbreakerrifleelite.png:idle",
+    "inventoryIcon" : "vkalienrifle.png:idle",
     "animationParts" : {
-      "middle" : "sgbreakerrifleelite.png"
+      "middle" : "vkalienrifle.png"
     },
     "shortdescription" : "Alien Rifle ^yellow;^reset;"
   }
