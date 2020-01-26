@@ -22,19 +22,10 @@ function update(dt, ...)
         local skinColour = sb.printJson(result[i].image)
         skinColour = skinColour:sub(2,-2)
         local splited = skinColour:split("?")
-		
 		--Set the skinColour Tag
         animator.setGlobalTag("skinColour", "?" .. splited[2])
 		--Apply the effect to projectiles too
         adaptColourToAbility("?" .. splited[2])
-		
-        local split = splited[2]:split(";")
-        split = split[3]:sub(8)
-		
-		--Set the light colour for muzzleflashes
-		if animator.hasTransformationGroup("muzzle") then
-          animator.setLightColor("muzzleFlash", {tonumber("0x"..split:sub(1,2))/1.5, tonumber("0x"..split:sub(3,4))/1.5, tonumber("0x"..split:sub(5,6))/1.5, (tonumber("0x"..split:sub(7,8)) or 255)/1.5})
-		end
 
         done = done + 1
       end
@@ -43,12 +34,20 @@ function update(dt, ...)
         local eyeColour = sb.printJson(result[i].image)
         eyeColour = eyeColour:sub(2,-2)
         local splited = eyeColour:split("?")
-		
 		--Set the eyeColour Tag
         animator.setGlobalTag("eyeColour", "?" .. splited[3])
-		sb.logInfo("abcDEEE" .. splited[3])
 		--Apply the effect to projectiles too
         adaptColourToAbility("?" .. splited[3])
+        local split = splited[3]:split(";")
+        split = split[3]:sub(8)
+		
+		--Set the light colour for muzzleflashes
+		if animator.hasTransformationGroup("muzzle") then
+          animator.setLightColor("muzzleFlash", {tonumber("0x"..split:sub(1,2))/1.5, tonumber("0x"..split:sub(3,4))/1.5, tonumber("0x"..split:sub(5,6))/1.5, (tonumber("0x"..split:sub(7,8)) or 255)/1.5})
+		end
+		if config.getParameter("activeTime") then
+          animator.setLightColor("glow", {tonumber("0x"..split:sub(1,2))/1.5, tonumber("0x"..split:sub(3,4))/1.5, tonumber("0x"..split:sub(5,6))/1.5, (tonumber("0x"..split:sub(7,8)) or 255)/1.5})
+		end
 
         done = done + 1
       end
