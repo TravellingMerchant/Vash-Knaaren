@@ -27,7 +27,7 @@
 			[0, [
 					{
 						"chest" : [
-							{ "name" : "vashknaarenoutfit1chest", "parameters" : { "colorIndex" : [1,2] } }
+							{ "name" : "vashknaarenoutfit1chest", "parameters" : { "colorIndex" : [2] } }
 						]
 					}
 				] ]
