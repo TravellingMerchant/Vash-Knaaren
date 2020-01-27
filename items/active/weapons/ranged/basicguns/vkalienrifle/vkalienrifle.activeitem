@@ -79,7 +79,7 @@
     "burstCount" : 8,
     "burstTime" : 0.02,
 
-    "projectileType" : "sgthorns",
+    "projectileType" : "vkthorn",
     "projectileParameters" : { 
       "knockback" : 10
     }

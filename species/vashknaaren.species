@@ -7,7 +7,7 @@
   },
   "nameGen" : [ "/species/vashknaarenmalenamegen.config:names", "/species/vashknaarenfemalenamegen.config:names" ],
   "ouchNoises" : [ "/sfx/humanoid/vashknaarenhurt_male1.ogg", "/sfx/humanoid/vashknaarenhurt_female1.ogg" ],
-  "charGenTextLabels" : [ "Skin colour", "Skull Plate", "Chestwear", "No Legwear", "Neck Detail", "Plate Colour", "Shirt colour", "No Legwear", "Vash'Knaaren", "Personality" ],
+  "charGenTextLabels" : [ "Skin colour", "Skull Plate", "Chestwear", "No Legwear", "Neck Detail", "Crystal Colour", "No Chest Colour", "No Legwear", "Vash'Knaaren", "Personality" ],
   "skull" : "/humanoid/vashknaaren/dead.png",
   "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=ffea63FF?replace=31a6ffFF=f5bc00FF",
   "defaultBlueprints" : {
@@ -128,6 +128,8 @@
   "hairColor" : [
     { "87735d" : "87735d", "5c4d3b" : "5c4d3b", "403528" : "403528", "2f261b" : "2f261b" }, //BONE
     { "ffc17c" : "c7e2ff", "ff720e" : "7cbaff", "ff1414" : "0e9bff" }, //BLUE
+    { "ffc17c" : "fad574", "ff720e" : "dea82b", "ff1414" : "b37d1e" }, //GOLD
+    { "ffc17c" : "dc3eff", "ff720e" : "9b00fe", "ff1414" : "6000a1" }, //PURPLE
     { "ffc17c" : "b0e9b9", "ff720e" : "7bda8c", "ff1414" : "35bd3e" } //GREEN
   ]
 }
