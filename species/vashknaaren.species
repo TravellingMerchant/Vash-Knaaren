@@ -130,6 +130,6 @@
     { "ffc17c" : "c7e2ff", "ff720e" : "7cbaff", "ff1414" : "0e9bff" }, //BLUE
     { "ffc17c" : "fad574", "ff720e" : "dea82b", "ff1414" : "b37d1e" }, //GOLD
     { "ffc17c" : "dc3eff", "ff720e" : "9b00fe", "ff1414" : "6000a1" }, //PURPLE
-    { "ffc17c" : "b0e9b9", "ff720e" : "7bda8c", "ff1414" : "35bd3e" } //GREEN
+    { "ffc17c" : "e3ffd8", "ff720e" : "a1ff5f", "ff1414" : "34d400" } //GREEN
   ]
 }

@@ -99,7 +99,7 @@
     "movementSettings" : {
       "collisionPoly" : [ [-0.75, -0.65], [-0.4, -1], [0.4, -1], [0.75, -0.65], [0.75, 0.15], [0.4, 0.5], [-0.4, 0.5], [-0.75, 0.15] ],
       "mass" : 1.0,
-      "walkSpeed" : 4,
+      "walkSpeed" : 8,
       "runSpeed" : 14,
       "flySpeed" : 15,
       "airForce" : 50.0
