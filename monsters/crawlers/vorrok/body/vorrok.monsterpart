@@ -1,0 +1,9 @@
+{
+  "name" : "vorrok",
+  "category" : "vorrok",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "vorrok.png"
+  }
+}

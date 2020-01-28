@@ -1,0 +1,16 @@
+{
+  "itemName" : "vkalienblock",
+  "price" : 10,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "vkalienblock.png",
+  "shortdescription" : "Alien Block",
+  "description" : "A strange crystal like rock.",
+  "glitchDescription" : "Facinated. A strange crystal like rock.",
+  "floranDescription" : "A sssstrange cryssstal like rock.",
+  "novakidDescription" : "A strange crystal like rock.",
+
+
+  "materialId" : 26211,
+  "learnBlueprintsOnPickup" : [ "vkalienblock" ]
+}

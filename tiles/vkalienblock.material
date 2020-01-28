@@ -1,0 +1,24 @@
+{
+  "materialId" : 26211,
+  "materialName" : "vkalienblock",
+  "particleColor" : [0, 0, 0, 255],
+  "itemDrop" : "vkalienblock",
+  "description" : "A strange crystal like rock.",
+  "shortdescription" : "Alien Rock",
+  "glitchDescription" : "Facinated. A strange crystal like rock.",
+  "floranDescription" : "A sssstrange cryssstal like rock.",
+  "novakidDescription" : "A strange crystal like rock.",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vkalienblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 1921
+  }
+}

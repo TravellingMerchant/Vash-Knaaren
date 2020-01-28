@@ -1,0 +1,24 @@
+{
+  "materialId" : 26210,
+  "materialName" : "vkalienspikeblock",
+  "particleColor" : [89, 127, 52, 255],
+  "itemDrop" : "vkalienspikeblock",
+  "shortdescription" : "Alien Spike Block",
+  "description" : "A metallic, yet organic plate.",
+  "glitchDescription" : "Observant. A metallic, yet organic plate.",
+  "floranDescription" : "A metallic, yet organic plate. Tasstessss bad!",
+  "novakidDescription" : "A metallic, organic lookin plate.",
+  "footstepSound" : "/sfx/blocks/footstep_rooftile.ogg",
+  "health" : 16,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vkalienspikeblock.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3240
+  }
+}
