@@ -1,0 +1,10 @@
+{
+  "name" : "sgvorrokwormtail",
+  "category" : "sgvorrokwormtail",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "sgvorrokwormtail.png",
+    "bodyfullbright" : "sgvorrokwormtailfullbright.png"
+  }
+}

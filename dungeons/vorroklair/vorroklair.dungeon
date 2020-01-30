@@ -1,0 +1,45 @@
+{
+  "metadata" : {
+    "name" : "vorroklair",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "vorroklairstart" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 6,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "vorroklairstart",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "vorroklairstart.json" ]
+    },
+    {
+      "name" : "vorroklair1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "vorroklair1.json" ]
+    },
+    {
+      "name" : "vorroklair2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "vorroklair2.json" ]
+    },
+    {
+      "name" : "vorroklairend",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "vorroklairend.json" ],
+      "chance" : 0
+    }
+  ]
+}

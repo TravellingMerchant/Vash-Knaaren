@@ -1,0 +1,10 @@
+{
+  "name" : "sgvorrokwormhead",
+  "category" : "sgvorrokwormhead",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "sgvorrokwormhead.png",
+    "bodyfullbright" : "sgvorrokwormheadfullbright.png"
+  }
+}
