@@ -12,5 +12,19 @@
 			"/ships/vashknaaren/vashknaarent7.structure",
 			"/ships/vashknaaren/vashknaarent8.structure"
 		]
+	},
+	{ "op" : "add",
+		"path" : "/speciesShips/vashknaarenbiped",
+		"value" : [
+		    "/ships/vashknaaren/vashknaarent0.structure",
+			"/ships/vashknaaren/vashknaarent1.structure",
+			"/ships/vashknaaren/vashknaarent2.structure",
+			"/ships/vashknaaren/vashknaarent3.structure",
+			"/ships/vashknaaren/vashknaarent4.structure",
+			"/ships/vashknaaren/vashknaarent5.structure",
+			"/ships/vashknaaren/vashknaarent6.structure",
+			"/ships/vashknaaren/vashknaarent7.structure",
+			"/ships/vashknaaren/vashknaarent8.structure"
+		]
 	}
 ]
