@@ -1,1 +1,4 @@
-[ { "op" : "add", "path" : "/speciesOrdering/-", "value" : "vashknaaren" } ]
+[ 
+  { "op" : "add", "path" : "/speciesOrdering/-", "value" : "vashknaaren" },
+  { "op" : "add", "path" : "/speciesOrdering/-", "value" : "vashknaarenbiped" }
+]

@@ -1,3 +1,4 @@
 [
-{ "op" : "add", "path" : "/defaultCodexes/vashknaaren", "value" : [ "protectorate1", "protectorate2", "vashknaarendiary" ] }
+{ "op" : "add", "path" : "/defaultCodexes/vashknaaren", "value" : [ "protectorate1", "protectorate2", "vashknaarendiary" ] },
+{ "op" : "add", "path" : "/defaultCodexes/vashknaarenbiped", "value" : [ "protectorate1", "protectorate2", "vashknaarenbipeddiary" ] }
 ]

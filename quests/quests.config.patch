@@ -13,5 +13,20 @@
 			"male": "neutral",
 			"female": "neutral"
 		}
+	},
+	{
+		"op": "add",
+		"path": "/initialquests/vashknaarenbiped",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/vashknaarenbiped",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
 	}
 ]
