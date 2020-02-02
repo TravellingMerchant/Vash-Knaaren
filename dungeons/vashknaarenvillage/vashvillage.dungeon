@@ -4,7 +4,7 @@
     "species" : "generic",
     "rules" : [
     ],
-    "anchor" : [ "vashvillagestart" ],
+    "anchor" : [ "vashspire1" ],
     "gravity" : 80,
     "maxRadius" : 1000000,
     "maxParts" : 100,
@@ -13,30 +13,9 @@
 
   "parts" : [
     {
-      "name" : "vashvillagestart",
-      "rules" : [
-        [ "maxSpawnCount", [1] ]
-      ],
-      "def" : [ "tmx", "vashvillagestart.json" ]
-    },
-    {
-      "name" : "vashvillagehouse1",
-      "rules" : [
-        [ "maxSpawnCount", [3] ]
-      ],
-      "def" : [ "tmx", "vashvillagehouse1.json" ]
-    },
-    {
-      "name" : "vashvillagehouse2",
-      "rules" : [
-        [ "maxSpawnCount", [3] ]
-      ],
-      "def" : [ "tmx", "vashvillagehouse2.json" ]
-    },
-    {
       "name" : "vashpool1",
       "rules" : [
-        [ "maxSpawnCount", [2] ]
+        [ "maxSpawnCount", [3] ]
       ],
       "def" : [ "tmx", "vashpool1.json" ]
     },
@@ -46,6 +25,69 @@
         [ "maxSpawnCount", [3] ]
       ],
       "def" : [ "tmx", "vashpool2.json" ]
+    },
+    {
+      "name" : "vashspire1",
+      "rules" : [
+        [ "maxSpawnCount", [3] ]
+      ],
+      "def" : [ "tmx", "vashspire1.json" ]
+    },
+    {
+      "name" : "vashspire2",
+      "rules" : [
+        [ "maxSpawnCount", [3] ]
+      ],
+      "def" : [ "tmx", "vashspire2.json" ]
+    },
+    {
+      "name" : "vashspire3",
+      "rules" : [
+        [ "maxSpawnCount", [3] ]
+      ],
+      "def" : [ "tmx", "vashspire3.json" ]
+    },
+    {
+      "name" : "vashspire4",
+      "rules" : [
+        [ "maxSpawnCount", [3] ]
+      ],
+      "def" : [ "tmx", "vashspire4.json" ]
+    },
+    {
+      "name" : "vashspire5",
+      "rules" : [
+        [ "maxSpawnCount", [3] ]
+      ],
+      "def" : [ "tmx", "vashspire5.json" ]
+    },
+    {
+      "name" : "vashspire6",
+      "rules" : [
+        [ "maxSpawnCount", [3] ]
+      ],
+      "def" : [ "tmx", "vashspire6.json" ]
+    },
+    {
+      "name" : "vashspire7",
+      "rules" : [
+        [ "maxSpawnCount", [3] ]
+      ],
+      "def" : [ "tmx", "vashspire7.json" ]
+    },
+    {
+      "name" : "vashspire8",
+      "rules" : [
+        [ "maxSpawnCount", [3] ]
+      ],
+      "def" : [ "tmx", "vashspire8.json" ]
+    },
+    {
+      "name" : "vashspire9",
+      "rules" : [
+        [ "maxSpawnCount", [3] ]
+      ],
+      "def" : [ "tmx", "vashspire9.json" ]
     }
   ]
 }

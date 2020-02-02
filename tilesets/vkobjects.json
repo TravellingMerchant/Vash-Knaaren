@@ -26,7 +26,7 @@
          "\/\/description":"alien ",
          "\/\/name":"alien",
          "\/\/shortdescription":"alien",
-         "imagePositionX":"-16",
+         "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"vashknaarenshipdoor",
          "tilesetDirection":"right"
@@ -86,7 +86,7 @@
          "\/\/description":"alien ",
          "\/\/name":"alien",
          "\/\/shortdescription":"alien",
-         "imagePositionX":"-17",
+         "imagePositionX":"0",
          "imagePositionY":"0",
          "object":"flagvashknaaren",
          "tilesetDirection":"right"
