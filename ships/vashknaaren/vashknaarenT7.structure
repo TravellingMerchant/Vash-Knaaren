@@ -5,17 +5,19 @@
       "crewSize" : 10
     }
   },
+
   "backgroundOverlays" : [
     {
       "image" : "vashknaarenT7.png",
-      "position" : [-1, 4],
+      "position" : [44, 34],
       "fullbright" : true
     },
     {
       "image" : "vashknaarenT7lit.png",
-      "position" : [-1, 4]
+      "position" : [44, 34]
     }
   ],
+
   "blockKey" : "blockKey.config:blockKey",
   "blockImage" : "vashknaarenT7blocks.png"
 }

@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "chestarmour",
-  "description" : "A sleeveless iron plated vest that offers reliable protection.",
-  "shortdescription" : "Scouter's Chestguard",
+  "description" : "Embedded plates under the skin provide protection and power.",
+  "shortdescription" : "Plated Chest T1",
   "tooltipKind" : "armor",
   "maleFrames" : {
     "body" : "chestm.png",

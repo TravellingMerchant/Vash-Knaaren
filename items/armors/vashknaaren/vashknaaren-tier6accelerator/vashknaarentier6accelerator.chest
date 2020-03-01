@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "chestarmour",
-  "description" : "Got a risky venture planned? Be sure to take this gambler's vest along.",
-  "shortdescription" : "Gambler's Vest",
+  "description" : "Embedded plates under the skin provide protection and power.",
+  "shortdescription" : "Plated Chest T6",
   "tooltipKind" : "armor",
   "maleFrames" : {
     "body" : "chest.png",

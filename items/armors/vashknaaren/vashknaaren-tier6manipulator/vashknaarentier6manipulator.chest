@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "chestarmour",
-  "description" : "The tall collar hides you face as you enact nefarious deeds.",
-  "shortdescription" : "Clockwork Jacket",
+  "description" : "Embedded plates under the skin provide protection and power.",
+  "shortdescription" : "Plated Chest T6",
   "tooltipKind" : "armor",
   "maleFrames" : {
     "body" : "chest.png",

@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "category" : "chestarmour",
-  "description" : "For the silent warrior who lurks in wait.",
-  "shortdescription" : "Gatherer's Chestpiece",
+  "description" : "Embedded plates under the skin provide protection and power.",
+  "shortdescription" : "Plated Chest T5",
   "tooltipKind" : "armor",
   "maleFrames" : {
     "body" : "chest.png",

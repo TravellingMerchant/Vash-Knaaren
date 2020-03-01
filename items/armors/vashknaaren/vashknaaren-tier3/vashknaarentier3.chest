@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "category" : "chestarmour",
-  "description" : "Enter the battlefield with confidence, encased in this heavy titanium breastplate.",
-  "shortdescription" : "Knight's Breastplate",
+  "description" : "Embedded plates under the skin provide protection and power.",
+  "shortdescription" : "Plated Chest T3",
   "tooltipKind" : "armor",
   "maleFrames" : {
     "body" : "chest.png",

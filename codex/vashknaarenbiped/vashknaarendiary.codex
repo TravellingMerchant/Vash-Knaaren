@@ -1,10 +1,12 @@
 {
 	"id" : "vashknaarenbipeddiary",
-	"title" : "Survivors Log",
+	"title" : "Vash'Knaaren Log",
 	"description" : "The diary of a lost soul.",
 	"icon" : "vashknaarencover.png",
 	"contentPages" : [
-    "Lore here."
+    "I am a Skry'Knaaren, outcast from my birthplace by an elder driven mad by my observation. A Skry'Knaarens observation pulls Vash'Knaaren out of their quantum state. The elders, so used to their ways, can't handle existing in a single state.",
+	"The life of a Skry'Knaaren is a hard one, often forced into exile or military labor. Many of us are forced onto the front lines, to choose the reality where our fellow soldiers do not fall.",
+	"I heard the protectorate can help me. Maybe there, I can escape this fate?"
 	],
 		"itemConfig" : {
 		"rarity" : "common",

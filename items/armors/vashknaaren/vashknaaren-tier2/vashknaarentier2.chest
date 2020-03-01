@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "chestarmour",
-  "description" : "A fortified plate/cravat combo that is both comfortable and stylish.",
-  "shortdescription" : "Sparrow Breastplate",
+  "description" : "Embedded plates under the skin provide protection and power.",
+  "shortdescription" : "Plated Chest T2",
   "tooltipKind" : "armor",
   "maleFrames" : {
     "body" : "chestm.png",
