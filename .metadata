@@ -1,11 +1,11 @@
 {
-  "tags" : "Species",
-  "author" : "DrPvtSkittles",
-  "description" : "Advanced Template to create your own race.",
-  "friendlyName" : "Skittles Advanced Race Template",
-  "link" : "",
-  "name" : "Skittles Advanced Race Template",
+  "author" : "Travelling Merchant",
+  "description" : "The Vash'Knaaren race from the Shellguard mod, now playable! Includes two versions, the spider legged bodies and the more human shaped bodies so that they can fit normal armour on.\n\nThis mod is a work in progress, there may be bugs but it's fully playble! Sadly, I do not have as much time to work on this mod, as I did with Shellguard, so if you'd like to contribute, the github can be found here: https://github.com/TravellingMerchant/Vash-Knaaren\n\nThe github also works as a non-steam download.\n\nThis mod also includes large scale settlements and a new dungeon based on the wild version of Vash'Knaaren pets!",
+  "friendlyName" : "Vash'Knaaren Race",
+  "link" : "steam://url/CommunityFilePage/2018529786",
+  "name" : "Vash'Knaaren Race",
   "path" : ".",
-  "steamContentId" : "",
+  "steamContentId" : "2018529786",
+  "tags" : "Crafting and Building|Miscellaneous|NPCs and Creatures|Weapons|Dungeons|Ships|Species|Furniture and Objects|Armor and Clothes",
   "version" : "1"
 }
