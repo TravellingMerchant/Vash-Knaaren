@@ -21,13 +21,6 @@
     {
       "action" : "config",
       "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
-    },
-	{
-      "action" : "projectile",
-      "type" : "vkthornsticking",
-      "inheritDamageFactor" : 0.3,
-      "inheritSpeedFactor" : 0.6,
-      "angleAdjust" : 0
     }
   ],
   "actionOnCollide" : [
