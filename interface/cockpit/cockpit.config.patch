@@ -1,0 +1,18 @@
+[
+  {
+    "op": "add",
+    "path": "/displayDungeons/vashvillage",
+    "value": {
+      "description": "Infrasonic scans indicate this planet has a Vash'Knaaren village.",
+      "icon": "/interface/cockpit/dungeons/vash.png"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/displayDungeons/vorroklair",
+    "value": {
+      "description": "A deep scan shows a large crack in the planets crust, which is a sign of a possible Vorrok nest.",
+      "icon": "/interface/cockpit/dungeons/vash.png"
+    }
+  }
+]
