@@ -1,8 +1,8 @@
 {
   "projectileName" : "vkthorn",
-  "physics" : "arrownosticky",
+  "physics" : "stickybomb",
   "bounces" : 0,
-  "piercing" : false,
+  "piercing" : true,
   "image" : "sgspikemortar.png",
   "animationCycle" : 0.2,
   "frameNumber" : 4,
@@ -39,5 +39,14 @@
   "damageKind" : "firespear",
   "damagePoly" : [ [-5, 2.5], [12, 0], [-5, -2.5], [-8, 0] ],
   "statusEffects" : [],
-  "hydrophobic" : false
+  "hydrophobic" : false,
+  
+  "scripts" : [ "/projectiles/scripts/vknebsgprojectilesticking.lua" ],
+  "searchDistance" : 0.09,
+  "stickToTargetTime" : 2,
+  "powerMultiplierAfterSticking" : 0.5,
+  "lifetimeAfterCollision" : 4,
+  "proximitySearchRadius" : false,
+  "validEntityTypes" : ["monster", "npc"],
+  "enemyAllyDistinguishing" : false
 }

@@ -14,9 +14,19 @@ function init()
   self.stuckToTarget = false
   self.stuckToGround = false
   self.hasActioned = false
+  self.hasCollided = false
+  self.setPower = false
 end
 
 function update(dt)
+  --If the projectile has collided with tiles reduce its time to live
+  if mcontroller.isColliding() and self.hasCollided == false then
+	if config.getParameter("lifetimeAfterCollision") then
+	  projectile.setTimeToLive(config.getParameter("lifetimeAfterCollision"))
+	end
+	self.hasCollided = true
+  end
+
   local targets = {}
   
   --Look for a target to stick to
@@ -57,8 +67,13 @@ function update(dt)
 	mcontroller.setPosition(targetStickingPosition)
 	local stickingVelocity = vec2.mul(self.stickingOffset, -1)
 	mcontroller.setVelocity(stickingVelocity)
+	if not self.setPower then
+	  projectile.setPower(projectile.power() * config.getParameter("powerMultiplierAfterSticking", 1))
+	  self.setPower = true
+    end
   else
 	self.stickingTarget = nil
+	self.setPower = false
   end
   
   --If we were stuck to a target, but got unstuck, kill the projectile
